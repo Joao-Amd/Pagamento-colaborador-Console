@@ -4,9 +4,7 @@
     {
         public double Adcional { get; set; }
 
-        public ColaboradorTerceiro()
-        {
-        }
+        
         public ColaboradorTerceiro(string nome, double horas, double valorPorHora, double adcional) 
             : base(nome, horas, valorPorHora)
         {
